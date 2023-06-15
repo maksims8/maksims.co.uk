@@ -1,0 +1,29 @@
+body {
+    font-family: 'Inter';
+    text-align: center;
+    color: rgb(230, 230, 230);
+    background-color: rgb(0, 0, 0);
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+h1 {
+    margin-top: 40vh;
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+  
+  #links a {
+    margin-right: 10px;
+  }
