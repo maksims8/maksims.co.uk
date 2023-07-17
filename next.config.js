@@ -4,13 +4,13 @@ const nextConfig = {
         return [
             {
                 source: "/github",
-                destination: "https://github.com/m4ksims",
+                destination: "https://github.com/m2ksims",
                 permanent: true
             },
 
             {
                 source: "/twitter",
-                destination: "https://twitter.com/m4ksims",
+                destination: "https://twitter.com/m2ksims",
                 permanent: true
             },
         ]

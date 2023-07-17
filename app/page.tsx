@@ -12,10 +12,10 @@ export default function Home() {
           <h2 className="text-2xl sm:text-2xl mt-2 sm:mt-3">Backend Developer</h2>
         </div>
         <div className="mt-5 sm:mt-6 flex">
-          <Link href="https://github.com/m2ksims" className="mr-3">
+          <Link href="/github" className="mr-3">
             <Image src="/github.svg" width={30} height={30} alt="Github" />
           </Link>
-          <Link href="https://twitter.com/m2ksims">
+          <Link href="/twitter">
             <Image src="/twitter.svg" width={30} height={30} alt="Twitter" />
           </Link>
         </div>
