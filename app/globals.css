@@ -7,3 +7,8 @@ body {
     color: rgb(255, 255, 255);
     margin-top: 35vh;
 }
+
+::selection {
+    background-color: rgb(99, 188, 247);
+    color: aliceblue;
+}
