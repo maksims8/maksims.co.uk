@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex flex-col items-center">
       <div>
         <div>
-          <h1 className="font-bold text-4xl sm:text-5xl">
+          <h1 className="text-4xl sm:text-5xl font-bold">
             Hey, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#56CCF2] to-[#2F80ED]">Maksims</span>.
           </h1>
           <h2 className="text-2xl sm:text-2xl mt-2 sm:mt-3">Backend Developer</h2>
