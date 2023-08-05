@@ -7,7 +7,7 @@ export default function Home() {
       <div>
         <div>
           <h1 className="text-4xl sm:text-5xl font-bold">
-            Hey, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3494E6] to-[#4A00E0]">Maksims</span>.
+            Hey, I'm <span className="text-blue-400">Maksims</span>.
           </h1>
           <h2 className="text-2xl sm:text-2xl mt-2 sm:mt-3">Backend Developer</h2>
         </div>
