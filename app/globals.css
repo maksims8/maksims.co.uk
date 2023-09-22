@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 body {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(7, 7, 7);
     color: rgb(255, 255, 255);
     margin-top: 35vh;
 }
 
 ::selection {
-    background-color: rgb(99, 188, 247);
+    background-color: rgb(188, 99, 247);
     color: aliceblue;
 }
