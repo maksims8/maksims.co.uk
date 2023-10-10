@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 body {
-    background-color: rgb(7, 7, 7);
-    color: rgb(255, 255, 255);
-    margin-top: 35vh;
+    background-color: rgb(15, 23, 42);
+    margin-top: 33vh;
 }
 
 ::selection {
