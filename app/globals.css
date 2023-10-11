@@ -4,7 +4,8 @@
 
 body {
     background-color: rgb(15, 23, 42);
-    margin-top: 33vh;
+    color: white;
+    margin-top: 38vh;
 }
 
 ::selection {
