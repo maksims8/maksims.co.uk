@@ -5,10 +5,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="text-center mt-12 mx-auto max-w-4xl">
-      <h1 className="text-[#cccccc]">/ˈmæksɪms/ - latvian origin</h1>
+      <section className="flex justify-center align-middle">
+        <Image className="rounded-full" src={"/bateman.jpg"} alt={""} height={75} width={75}/>
+      </section>
+
+      <h1 className="text-[#cccccc] mt-5">maksims (/ˈmæksɪms/)</h1>
+      <h2 className="text-[#cccccc]">backend developer</h2>
+      <h3 className="text-[#cccccc]">based in the united kingdom</h3>
 
       <section className="mt-6">
-        <h1 className="text-xl font-semibold mb-6">projects</h1>
+        <h1 className="text-2xl font-semibold mb-6">projects</h1>
 
         <div className="flex flex-wrap justify-center gap-4">
           <ProjectCard
