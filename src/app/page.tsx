@@ -1,12 +1,12 @@
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
 import Image from "next/image";
-import BlogCard from "@/components/BlogCard";
 
 export default function Home() {
   return (
     <main className="text-center mt-12 mx-auto max-w-4xl">
       <h1 className="text-[#cccccc]">/ˈmæksɪms/ - latvian origin</h1>
+      
 
       <section className="mt-6">
         <h1 className="text-xl font-semibold mb-6">projects</h1>
@@ -16,18 +16,6 @@ export default function Home() {
             title="maksims.co.uk"
             description="my personal website which is the one you're browsing now."
             link="https://github.com/m2ksims/maksims.co.uk"
-          />
-        </div>
-      </section>
-
-      <section>
-        <h1 className="text-xl font-semibold mt-10 mb-6">blog (my favourites)</h1>
-
-        <div className="flex flex-col justify-center items-center">
-          <BlogCard
-            title="example blog title"
-            description="a simple description about the blog."
-            link="/blog/example"
           />
         </div>
       </section>
