@@ -1,4 +1,6 @@
 import ProjectCard from "@/components/ProjectCard";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -17,6 +19,19 @@ export default function Home() {
         </div>
       </section>
 
+      <footer className="border-t border-[#3b3b3b] mb-3 fixed bottom-0 w-1/2 flex justify-between items-center p-4">
+        <span className="text-[#cccccc]">Maksims K.</span>
+
+        <div className="flex space-x-2">
+          <Link href={"https://github.com/m2ksims"}>
+            <Image src={"/github.svg"} alt={""} width={20} height={20}/>
+          </Link>
+
+          <Link href={"mailto:maksims.kadobnovs@gmail.com?subject = Feedback&body = Message"}>
+            <Image src={"/email.png"} alt={""} width={20} height={20}/>
+          </Link>
+        </div>
+      </footer>
 
     </main>
   );
