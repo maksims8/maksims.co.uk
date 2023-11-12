@@ -1,6 +1,7 @@
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
 import Image from "next/image";
+import BlogCard from "@/components/BlogCard";
 
 export default function Home() {
   return (
@@ -8,19 +9,31 @@ export default function Home() {
       <h1 className="text-[#cccccc]">/ˈmæksɪms/ - latvian origin</h1>
 
       <section className="mt-6">
-        <h1 className="text-xl font-semibold mb-6">Projects</h1>
+        <h1 className="text-xl font-semibold mb-6">projects</h1>
 
         <div className="flex flex-wrap justify-center gap-4">
           <ProjectCard
             title="maksims.co.uk"
-            description="My personal website which is the one you're browsing now."
+            description="my personal website which is the one you're browsing now."
             link="https://github.com/m2ksims/maksims.co.uk"
           />
         </div>
       </section>
 
-      <footer className="border-t border-[#3b3b3b] mb-3 fixed bottom-0 w-1/2 flex justify-between items-center p-4">
-        <span className="text-[#cccccc]">Maksims K.</span>
+      <section>
+        <h1 className="text-xl font-semibold mt-10 mb-6">blog (my favourites)</h1>
+
+        <div className="flex flex-col justify-center items-center">
+          <BlogCard
+            title="example blog title"
+            description="a simple description about the blog."
+            link="/blog/example"
+          />
+        </div>
+      </section>
+
+      <footer className="border-t border-[#3b3b3b] mb-2 fixed bottom-0 w-1/2 flex justify-between items-center p-4">
+        <span className="text-[#cccccc]">maksims k.</span>
 
         <div className="flex space-x-2">
           <Link href={"https://github.com/m2ksims"}>
