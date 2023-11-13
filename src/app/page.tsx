@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="border-t border-[#3b3b3b] mb-2 fixed bottom-0 w-1/2 flex justify-between items-center p-4">
+      <footer className="border-t border-[#3b3b3b] mb-2 fixed bottom-0 sm:w-1/2 lg:1/2 w-full flex justify-between items-center p-4">
         <span className="text-[#cccccc]">maksims k.</span>
 
         <div className="flex space-x-2">
