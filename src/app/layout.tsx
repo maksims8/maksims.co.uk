@@ -6,7 +6,16 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'maksims.co.uk | backend developer',
-  description: 'A website containing details about Maksims K. - a backend developer living in the United Kingdom.',
+  description: 'A backend developer living in the United Kingdom.',
+
+  openGraph: {
+    title: 'maksims.co.uk | backend developer',
+    description: 'A backend developer living in the United Kingdom.',
+    url: 'https://maksims.co.uk',
+    siteName: 'maksims.co.uk',
+    locale: 'en_GB',
+    type: 'website'
+  }
 }
 
 export default function RootLayout({
