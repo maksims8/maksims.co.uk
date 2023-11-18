@@ -25,16 +25,12 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="border-t border-[#3b3b3b] mb-2 fixed bottom-0 sm:w-1/2 lg:1/2 w-full flex justify-between items-center p-4">
+      <footer className="border-t border-[#3b3b3b] mb-1 fixed bottom-0 sm:w-1/2 lg:1/2 w-full flex justify-between items-center p-4">
         <span className="text-[#cccccc]">maksims k.</span>
 
         <div className="flex space-x-2">
           <Link href={"https://github.com/m2ksims"}>
             <Image src={"/github.svg"} alt={""} width={20} height={20}/>
-          </Link>
-
-          <Link href={"mailto:maksims.kadobnovs@gmail.com?subject = Feedback&body = Message"}>
-            <Image src={"/email.png"} alt={""} width={20} height={20}/>
           </Link>
         </div>
       </footer>
