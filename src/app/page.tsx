@@ -18,6 +18,11 @@ export default function Home() {
 
         <div className="flex flex-wrap justify-center gap-4">
           <ProjectCard
+            title="monkeytype.py"
+            description="an api wrapper built around the monkeytype api."
+            link="https://github.com/m2ksims/monkeytype.py"
+          />
+          <ProjectCard
             title="maksims.co.uk"
             description="my personal website which is the one you're browsing now."
             link="https://github.com/m2ksims/maksims.co.uk"
