@@ -18,8 +18,8 @@ export default function Home() {
 
         <div className="flex flex-wrap justify-center gap-4">
           <ProjectCard
-            title="monkeytype.py"
-            description="an api wrapper built around the monkeytype api."
+            title="dub.py"
+            description="a wrapper/sdk built around the dub.co api."
             link="https://github.com/m2ksims/monkeytype.py"
           />
           <ProjectCard
