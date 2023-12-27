@@ -20,7 +20,7 @@ export default function Home() {
           <ProjectCard
             title="dub.py"
             description="a wrapper/sdk built around the dub.co api."
-            link="https://github.com/m2ksims/monkeytype.py"
+            link="https://github.com/m2ksims/dub.py"
           />
           <ProjectCard
             title="maksims.co.uk"
